@@ -1,8 +1,8 @@
-# Portfolio
+# AI & ML Portfolio - Pulkit Verma
 
-A personal portfolio website showcasing my projects, skills, and professional experience in Data Science, Machine Learning, and AI Engineering.
+A professional portfolio website showcasing my expertise in Artificial Intelligence, Machine Learning, Generative AI, and Computer Vision.
 
-🔗 **Live Site:** [https://portfolio.hari31416.in/](https://portfolio.hari31416.in/)
+🔗 **GitHub:** [https://github.com/pulkitv52](https://github.com/pulkitv52)
 
 ## Tech Stack
 
@@ -15,63 +15,61 @@ A personal portfolio website showcasing my projects, skills, and professional ex
 ## Features
 
 - 🎨 Modern, responsive design with smooth animations
-- 💼 Work experience timeline
-- 🛠️ Skills showcase
-- 📂 Project gallery with links to repositories and live demos
-- 🔗 Social media links
+- 💼 Professional work experience timeline (KPMG, KritiKal Solutions)
+- 🛠️ Technical skills showcase (Python, C++, FastAPI, LangChain, PyTorch, etc.)
+- 📂 Project gallery featuring high-impact AI/ML solutions
+- 🔗 Direct contact and social integration
 
 ## Projects Showcased
 
-The portfolio features various projects including:
+The portfolio features various professional AI solutions including:
 
-- **VidScribe** - AI-powered video to notes converter
-- **Multimodal Chatbot** - Full-stack AI chatbot with vision and data analysis
-- **TorchLight** - CNN feature visualization library
-- **ReVision** - Computer vision architectures from scratch
-- **Transformer From Scratch** - PyTorch transformer implementation
-- **RagOptimize** - Fine-tuned Mistral-7B with RAG for financial QA
-- And many more...
+- **AI Medha Chatbot** - RAG-based government assistant using LLaMA 70B and FAISS.
+- **Unified Social Registry** - Citizen intelligence platform with knowledge graphs (Citizen 360).
+- **AI-Based Property Valuation** - XGBoost and GIS-driven engine for real estate analytics.
+- **Traffic Analysis Pipeline** - YOLO-based computer vision system with bird's-eye-view projection.
+- **Intelligent Document Processing** - OCR and LLM-based automation for PDF processing.
+- **3D Hair Reconstruction** - Advanced AR/VR computer vision experiment using depth maps.
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js (v18+)
-- npm or yarn
+- pnpm (Recommended) or npm
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/Hari31416/Portfolio.git
+git clone https://github.com/pulkitv52/Portfolio.git
 cd Portfolio
 
 # Install dependencies
-npm install
+pnpm install
 
 # Start development server
-npm run dev
+pnpm run dev
 ```
 
 ### Available Scripts
 
 | Command           | Description              |
 | ----------------- | ------------------------ |
-| `npm run dev`     | Start development server |
-| `npm run build`   | Build for production     |
-| `npm run preview` | Preview production build |
-| `npm run lint`    | Run ESLint               |
-| `npm run deploy`  | Deploy to GitHub Pages   |
+| `pnpm run dev`    | Start development server |
+| `pnpm run build`  | Build for production     |
+| `pnpm run preview`| Preview production build |
+| `pnpm run lint`   | Run ESLint               |
+| `pnpm run deploy` | Deploy to GitHub Pages   |
 
 ## Project Structure
 
 ```text
 src/
 ├── components/     # React components (Hero, Navbar, Skills, etc.)
-├── data/           # Portfolio data configuration
+├── data/           # Portfolio data configuration (portfolio.jsx)
 ├── assets/         # Images and static assets
 └── lib/            # Utility functions
-projects/           # Jupyter notebooks for ML/DS projects, not needed otherwise
 ```
 
 ## License
@@ -80,6 +78,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-- **GitHub:** [@Hari31416](https://github.com/Hari31416)
-- **LinkedIn:** [hari31416](https://linkedin.com/in/hari31416)
-- **Kaggle:** [hari31416](https://www.kaggle.com/hari31416)
+- **GitHub:** [@pulkitv52](https://github.com/pulkitv52)
+- **LinkedIn:** [pulkitverma52](https://linkedin.com/in/pulkitverma52)
+- **Email:** [pulkitv52@gmail.com](mailto:pulkitv52@gmail.com)
