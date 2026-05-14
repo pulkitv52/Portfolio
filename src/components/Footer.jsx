@@ -22,7 +22,7 @@ const Footer = () => {
           })}
         </div>
         <p className="text-muted-foreground">
-          Designed & Built by Harikesh Kushwaha
+          Designed & Built by Pulkit Verma
         </p>
         <p className="text-sm text-muted-foreground/60 mt-2">
           © {new Date().getFullYear()} All rights reserved.

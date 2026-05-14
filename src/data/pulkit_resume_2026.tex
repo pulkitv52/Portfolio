@@ -1,0 +1,228 @@
+%-------------------------
+% ATS-Optimized Resume in LaTeX
+% Author: Pulkit Verma
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% ATS-friendly PDF
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Pulkit Verma} \\ \vspace{4pt}
+    \small
+    \faPhone\ 9953049401 \quad
+    \faEnvelope\ \href{mailto:pulkitv52@gmail.com}{\underline{pulkitv52@gmail.com}} \quad
+    \faLinkedin\ \href{https://www.linkedin.com/in/pulkitverma52/}{\underline{linkedin.com/in/pulkitverma52}} \quad
+    \faGithub\ \href{https://github.com/pulkitv52}{\underline{github.com/pulkitv52}} \quad
+    \faMapMarker*\ New Delhi, India
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{
+\textbf{Artificial Intelligence and Machine Learning Engineer} with \textbf{4.5+ years of experience} designing, developing, and deploying \textbf{AI/ML}, \textbf{Generative AI}, \textbf{computer vision}, and data-driven solutions for enterprise and government projects. Skilled in building \textbf{Retrieval-Augmented Generation (RAG)} pipelines, \textbf{LLM-based applications}, \textbf{OCR systems}, \textbf{knowledge graph} solutions, \textbf{geospatial analytics} platforms, and machine learning models. Experienced in end-to-end solution development including data preprocessing, model training, backend APIs, frontend dashboards, and scalable AI system architecture.
+}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, C++, JavaScript, SQL} \\
+     \textbf{Machine Learning and AI}{: Scikit-learn, XGBoost, TensorFlow, PyTorch, Feature Engineering, Model Evaluation, Predictive Modeling, Anomaly Detection, Fraud Analytics} \\
+     \textbf{Generative AI and NLP}{: Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), LangChain, LlamaIndex, Hugging Face, Prompt Engineering, Semantic Search, Text Summarization, NLP Pipelines} \\
+     \textbf{Computer Vision and OCR}{: OpenCV, YOLO, Image Segmentation, OCR, Document AI, PDF Processing} \\
+     \textbf{Knowledge Graph and Data Intelligence}{: Knowledge Graphs, Citizen 360, Entity Resolution, Data Harmonization, De-duplication, Semantic Interoperability} \\
+     \textbf{Databases and Vector Stores}{: FAISS, ChromaDB, Weaviate, PostgreSQL, MongoDB, Neo4j, Milvus} \\
+     \textbf{Geospatial and Analytics}{: GIS, Geospatial Analytics, Map-based Visualization, Clustering, Location Intelligence} \\
+     \textbf{Cloud and Tools}{: AWS, Azure, FastAPI, Streamlit, Docker, REST APIs, GitHub, JIRA, CI/CD} \\
+    }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Consultant, AI-COE}{July 2025 -- Present}
+      {KPMG Advisory Services Pvt. Ltd.}{New Delhi, India}
+
+      \vspace{4pt}
+      \textbf{\small Project: AI Medha Chatbot Development -- Government of India}
+      \resumeItemListStart
+        \resumeItem{Developed and deployed \textbf{RAG pipelines} using \textbf{FAISS} and \textbf{ChromaDB} for \textbf{semantic search} and dynamic knowledge retrieval.}
+        \resumeItem{Built an interactive \textbf{chatbot} using \textbf{LLaMA 70B} and \textbf{Streamlit}, improving \textbf{response accuracy by 30\%} and reducing \textbf{latency by 20\%}.}
+        \resumeItem{Created \textbf{FastAPI} endpoints for scalable integration of AI services and \textbf{multi-turn conversation} handling.}
+        \resumeItem{Implemented \textbf{NVIDIA OCR} for document text extraction and automated \textbf{PDF-to-Markdown} conversion.}
+        \resumeItem{Designed an AI-driven \textbf{Q\&A system} for uploaded PDFs using \textbf{LLM-based retrieval} techniques.}
+      \resumeItemListEnd
+
+      \vspace{4pt}
+      \textbf{\small Project: PRAYAS -- Government of India}
+      \resumeItemListStart
+        \resumeItem{Analyzed end-to-end \textbf{chatbot workflow} to identify optimization opportunities and enhance system performance.}
+        \resumeItem{Collaborated with cross-functional teams to refine requirements and align deliverables with client expectations.}
+        \resumeItem{Conducted \textbf{prompt engineering} and \textbf{LLM evaluation} for specific government use cases.}
+        \resumeItem{Supported \textbf{Bharat Map} implementation for enriched user interaction and \textbf{location-based functionality}.}
+        \resumeItem{Performed \textbf{testing and validation} to ensure system robustness and scalability.}
+      \resumeItemListEnd
+
+      \vspace{4pt}
+      \textbf{\small Project: Unified Social Registry and Citizen Intelligence Platform}
+      \resumeItemListStart
+        \resumeItem{Developed a Proof of Concept for a \textbf{Unified Social Registry Platform} using a \textbf{federated architecture} to enable secure virtual aggregation of beneficiary data across government departments.}
+        \resumeItem{Designed an \textbf{AI/ML-based} beneficiary identification and eligibility engine using socioeconomic indicators, demographic attributes, and scheme-specific eligibility rules.}
+        \resumeItem{Implemented \textbf{AI-driven beneficiary segmentation} for risk, vulnerability, life-cycle stage, geography, and service delivery prioritization.}
+        \resumeItem{Built a \textbf{knowledge graph}-based 360-degree citizen view to connect beneficiaries, households, schemes, geography, eligibility rules, and service delivery touchpoints.}
+        \resumeItem{Developed \textbf{data harmonization} and \textbf{de-duplication pipelines} to resolve inconsistencies, duplicate records, and cross-department identity conflicts.}
+        \resumeItem{Designed \textbf{anomaly detection} and \textbf{fraud analytics} workflows to identify duplicate claims, irregular benefit usage, and potential leakages.}
+        \resumeItem{Integrated \textbf{GIS} and \textbf{geospatial intelligence} to identify underserved, remote, tribal, and high-risk regions for last-mile targeting.}
+        \resumeItem{Developed \textbf{NLP-based interoperability} logic to map heterogeneous departmental MIS data dictionaries and enable semantic cross-scheme data exchange.}
+      \resumeItemListEnd
+
+      \vspace{4pt}
+      \textbf{\small Project: AI-Based Property Valuation and Geospatial Analytics Platform}
+      \resumeItemListStart
+        \resumeItem{Developed an \textbf{AI-driven property valuation} Proof of Concept using property transaction data, \textbf{GIS location attributes}, and machine learning models.}
+        \resumeItem{Trained separate \textbf{XGBoost models} for land and flat valuation to improve \textbf{prediction accuracy} across different property categories.}
+        \resumeItem{Performed \textbf{data preprocessing}, \textbf{feature engineering}, and \textbf{model evaluation} on transaction-level structured datasets.}
+        \resumeItem{Designed \textbf{geospatial clustering} logic to classify regions into high-value, medium-value, and low-value property zones.}
+        \resumeItem{Integrated \textbf{GIS-based map visualization} to display property valuation clusters, spatial pricing trends, and location-based insights.}
+        \resumeItem{Designed and developed both \textbf{frontend and backend} components for an interactive property valuation dashboard.}
+        \resumeItem{Built \textbf{REST APIs} and analytical workflows to support property price prediction, zone classification, and geospatial decision-making.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer, Computer Vision}{May 2022 -- July 2025}
+      {KritiKal Solutions Pvt. Ltd.}{New Delhi, India}
+      \resumeItemListStart
+        \resumeItem{Benchmarked \textbf{YOLO models} for \textbf{traffic analysis}, improving \textbf{detection accuracy} and reducing false positives.}
+        \resumeItem{Developed a top-down \textbf{bird's-eye-view pipeline} using multi-angle images and \textbf{homography matrices} for automotive applications.}
+        \resumeItem{Built intelligent \textbf{document processing} tools integrating \textbf{OCR} and \textbf{LLM} strategies for automated annotation.}
+        \resumeItem{Implemented advanced \textbf{RAG features} including \textbf{re-ranking} and \textbf{sub-question generation} using \textbf{LlamaIndex}.}
+        \resumeItem{Experimented with \textbf{3D hair reconstruction} using \textbf{depth maps} and \textbf{segmentation masks} for \textbf{AR/VR} applications.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Dr. A.P.J. Abdul Kalam Technical University}{2021}
+      {Bachelor of Technology in Computer Science}{}
+    \resumeSubheading
+      {Guru Nanak Public School}{2017}
+      {AISSCE, Class XII}{}
+    \resumeSubheading
+      {S.D. Public School}{2015}
+      {AISSE, Class X}{}
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Artificial Intelligence Foundations: Neural Networks} $|$ \emph{LinkedIn Learning} $|$ \href{https://www.linkedin.com/learning/certificates/c39afa370d4fa2cb79b9ac5601108f4949bc165fc1d5a694cdb8eebfce545f01}{\underline{View Certificate}}}{}
+    \resumeProjectHeading
+      {\textbf{Designing Agentic AI Products (No Code Required)} $|$ \emph{LinkedIn Learning} $|$ \href{https://www.linkedin.com/learning/certificates/96438e8bc6c87f092c1a020770d996632de4a5c25a44a588babd807c98765bcd}{\underline{View Certificate}}}{}
+    \resumeProjectHeading
+      {\textbf{Mastering Model Context Protocol (MCP)} $|$ \emph{LinkedIn Learning} $|$ \href{https://www.linkedin.com/learning/certificates/b12167836a22d7b9be3ec672b57ab4e958402ce890ad56bd865e0586f15e1376}{\underline{View Certificate}}}{}
+  \resumeSubHeadingListEnd
+
+%-----------ADDITIONAL INFORMATION-----------
+\section{Additional Information}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: English, Hindi} \\
+     \textbf{Interpersonal Skills}{: Problem Solving, Communication, Team Collaboration, Decision Making} \\
+     \textbf{Interests}{: Singing, Playing Guitar, Traveling} \\
+    }}
+\end{itemize}
+
+%-------------------------------------------
+\end{document}

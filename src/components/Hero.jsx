@@ -22,7 +22,7 @@ const Hero = () => {
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Hello There! <br />
-              I'm <span className="text-primary">Harikesh Kushwaha</span>
+              I'm <span className="text-primary">Pulkit Verma</span>
             </h1>
             <div className="text-xl md:text-2xl text-muted-foreground mb-8 h-[60px]">
               <Typewriter
@@ -45,7 +45,7 @@ const Hero = () => {
                 View Work <ArrowRight className="ml-2 h-4 w-4" />
               </a>
               <a
-                href="mailto:harikeshkumar0926@gmail.com"
+                href="mailto:pulkitv52@gmail.com"
                 className="inline-flex items-center justify-center px-6 py-3 border border-input bg-background text-base font-medium rounded-md text-foreground hover:bg-accent hover:text-accent-foreground transition-colors"
               >
                 Contact Me

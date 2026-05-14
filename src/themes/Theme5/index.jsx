@@ -25,7 +25,7 @@ export default function Theme5() {
       <section className="t5-hero">
         <div className="t5-hero-chapter">Prologue</div>
         <div className="t5-hero-rule" />
-        <h1 className="t5-hero-name">Harikesh<br />Kushwaha</h1>
+        <h1 className="t5-hero-name">Pulkit<br />Verma</h1>
         <div className="t5-hero-subtitle">
           AI Engineer
         </div>
@@ -33,7 +33,7 @@ export default function Theme5() {
         <p className="t5-hero-desc">{homeConfig.about.start}</p>
         <div className="t5-hero-btns">
           <a href="#" onClick={() => scroll(projRef)} className="t5-btn-primary">View the Work</a>
-          <a href="mailto:harikeshkumar0926@gmail.com" className="t5-btn-secondary">Make Contact</a>
+          <a href="mailto:pulkitv52@gmail.com" className="t5-btn-secondary">Make Contact</a>
         </div>
       </section>
 
@@ -173,7 +173,7 @@ export default function Theme5() {
           <div className="t5-footer-rule-diamond" />
           <div className="t5-footer-rule-line" />
         </div>
-        <div className="t5-footer-name">Harikesh Kushwaha</div>
+        <div className="t5-footer-name">Pulkit Verma</div>
         <div className="t5-footer-tagline">AI Engineer · Builder of Intelligent Systems</div>
         <div className="t5-footer-icons">
           {footerConfig.icons.map((item) => {
@@ -185,7 +185,7 @@ export default function Theme5() {
             );
           })}
         </div>
-        <div className="t5-footer-copy">© 2025 · All Rights Reserved · Harikesh Kushwaha</div>
+        <div className="t5-footer-copy">© 2025 · All Rights Reserved · Pulkit Verma</div>
       </footer>
     </div>
   );
